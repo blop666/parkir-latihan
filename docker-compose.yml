@@ -30,7 +30,7 @@ services:
   db:
     image: mariadb:10.11
     restart: unless-stopped
-    container_name: parkir_db
+    container_name: parking_db
     environment:
       - MYSQL_DATABASE=parkir
       - MYSQL_ROOT_PASSWORD=123
