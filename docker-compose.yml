@@ -32,7 +32,7 @@ services:
     image: mariadb:10.11
     container_name: parking_db
     environment:
-      - MYSQL_DATABASE=PARKIR
+      - MYSQL_DATABASE=parkir
       - MYSQL_ROOT_PASSWORD=123
     volumes:
       - dbdata:/var/lib/mysql
